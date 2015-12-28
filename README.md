@@ -15,4 +15,8 @@ We now want to push/pull individual commit to/from github..
 	git push origin master		!push to the remote location in the master branch
 	some commit were done to the project and made public on github not from my pc...
 	git pull origin master		!pull modification from the remote loaction in the master branch
-	
+Ok, now we want to play with branches...
+	git branch			! shows branches, * designate active branch (master is 1st branch name)
+	git branch MyTest		! creates branch MyTest
+	git checkout MyTest		! uses branch MyTest
+	git checkout -b MyTest		! Both create AND uses branch MyTest
