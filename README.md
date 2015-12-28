@@ -13,3 +13,5 @@ I played around wit a few command such as
 We now want to push that back to github..
 	git commit -am "comment"
 	git push origin master		!push to the remote location in the master branch
+	git pull origin master		!pull modification from the remote loaction in the master branch
+	
