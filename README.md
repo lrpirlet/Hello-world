@@ -10,3 +10,6 @@ I played around wit a few command such as
 	git commit -m "comment"
 	git commit -am "cpmment (a so no add needed)"
 	git clone
+We now want to push that back to github..
+	git commit -am "comment"
+	git push origin master		!push to the remote location in the master branch
