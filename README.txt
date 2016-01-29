@@ -45,6 +45,17 @@ Now I want to work with open source project
 	on my pc edit the branch till satisfied
 	git push origin FeatureBranch	! send the feature branch to github
 	on github "compare & pull request" to submit changes 
-	
-			
+Now, I developped some.. I am asked to rebase on an an old commit named RCbugFix...
+	On my pc
+	git checkout RCBugFix  
+	git rebase RCBugFix M401_crashes_servo_on_bed
+		this is the same as
+		git Checkout M401_crashes_servo_on_bed
+		git rebase RCBugFix
+	git branch shows M401_crashes_servo_on_bed as current
+	git log shows RCBugFix merges followed by M401_crashes_servo_on_bed merge
+	git push -f origin M401_crashes_servo_on_bed	! without -f will refuse cause RCBugFix is NOT in forward direction
+
+
+
 
