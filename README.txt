@@ -80,4 +80,23 @@ I also want to get the tags
 	It may be needed to correct conflict in much the same way as in a rebase operation... after correction
 	(fix the file)
 	git add <corrected file>
-	git am --resolved ../pat	
+	git am --resolved ../pat
+
+I have many branches... What is the remote tracking
+	git branch -vv
+I want to change the remote tracking
+	git push --set-upstream <remote> <branch-name>
+	git branch --set-upstream-to=<remote>
+
+
+
+
+
+*********************************************************************************************************
+
+git checkout bugfix-1.1.x
+git pull mainstream bugfix-1.1.x
+git checkout bugfix-2.0.x
+git pull mainstream bugfix-2.0.x
+git checkout lrpv2
+git rebase bugfix-2.0.x
